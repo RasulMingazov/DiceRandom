@@ -50,7 +50,6 @@ class MainActivity : ComponentActivity() {
             modifier = modifier,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-
             Image(
                 painter = painterResource(id = image.value.second),
                 contentDescription = image.value.first.toString()
